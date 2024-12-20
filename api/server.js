@@ -10,7 +10,7 @@ mongoose
     .connect(process.env.DB, {
 
     })
-const UserModel = require('./models/Users');
+const UserModel = require('../models/Users');
 
 app.get('/users', async (req, res) => {
     const users = await UserModel.find();
