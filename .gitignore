@@ -58,3 +58,7 @@ Thumbs.db
 
 # Other generated files
 *.tsbuildinfo
+.vercel
+
+# Local Netlify folder
+.netlify
